@@ -1,0 +1,19 @@
+
+Palavras- chaves
+
+break        default      func         interface    select
+case         defer        go           map          struct
+chan         else         goto         package      switch
+const        fallthrough  if           range        type
+continue     for          import       return       var
+
+Operadores e Delimitadores
+
++    &     +=    &=     &&    ==    !=    (    )
+-    |     -=    |=     ||    <     <=    [    ]
+*    ^     *=    ^=     <-    >     >=    {    }
+/    <<    /=    <<=    ++    =     :=    ,    ;
+%    >>    %=    >>=    --    !     ...   .    :
+     &^          &^=
+
+Obs: Quando executar retirar os comentários.
