@@ -7,7 +7,7 @@ package principal;
 
 /**
  *
- * @author LelaScarlet
+ * @author LelaScarlet e Larrissa Dantas
  */
 public class Token {
 
