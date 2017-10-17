@@ -7,7 +7,7 @@ package principal;
 
 /**
  *
- * @author LelaScarlet
+ * @author LelaScarlet e Larrissa Dantas
  */
 public class IdentificaToken {
 
@@ -174,9 +174,7 @@ public class IdentificaToken {
 			return Simbolo.CASE;
                 
 
-		//[\\w]{1,30} = comeÃ§a com letra e permite no min 1 e max 30
-		//[^\\s] = nÃ£o pode conter caracter em branco
-		//[\\d]* = verifica se tem a existencia de 0 ou mais caracters 
+		
 		if(str.matches("^[a-zA-Z]{1}|^[a-zA-Z][^\\s][^\"]$|^[a-zA-Z]+[\\d]*[^\\s][^\"]$")){
 			if(str.length()<30)
 				return Simbolo.IDENTIFICADOR;
