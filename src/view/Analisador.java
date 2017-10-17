@@ -7,7 +7,7 @@ package view;
 
 /**
  *
- * @author LelaScarlet
+ * @author LelaScarlet e Larrissa Dantas
  */
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -41,10 +41,7 @@ public class Analisador extends Shell {
 	private Table table;
 	private Text text;
 	
-	/**
-	 * Launch the application.
-	 * @param args
-	 */
+	
 	public static void main(String args[]) {
 		try {
 			Display display = Display.getDefault();
@@ -61,10 +58,7 @@ public class Analisador extends Shell {
 		}
 	}
 
-	/**
-	 * Create the shell.
-	 * @param display
-	 */
+	
 	public Analisador(Display display) {
 		super(display, SWT.SHELL_TRIM);
 		setLayout(new BorderLayout(0, 0));
@@ -146,7 +140,7 @@ public class Analisador extends Shell {
 
 	private void analisar(String textoInput){
 		
-//		String condicao = "if a123 = 125 then (* teste de comentario *) (*outro comentario*) \n\tC := 30\nelse\n\tC := 40";
+
 		String condicao = textoInput;
 
 		List<String> comentarios = new ArrayList<String>();
@@ -206,9 +200,7 @@ public class Analisador extends Shell {
 		}
 	}
 	
-	/**
-	 * Create contents of the shell.
-	 */
+	
 	protected void createContents() {
 		setText("Analisador L\u00E9xico");
 		setSize(450, 600);
@@ -217,6 +209,6 @@ public class Analisador extends Shell {
 
 	@Override
 	protected void checkSubclass() {
-		// Disable the check that prevents subclassing of SWT components
+		
 	}
 }
